@@ -7,25 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3635B90B268F09F900D2FF70 /* PanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635B909268F09F900D2FF70 /* PanViewController.swift */; };
+		3635B90C268F09F900D2FF70 /* PanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3635B90A268F09F900D2FF70 /* PanViewController.xib */; };
+		3645A36E269E787800732F95 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3645A36C269E787700732F95 /* PageControlViewController.swift */; };
+		3645A36F269E787800732F95 /* PageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3645A36D269E787800732F95 /* PageControlViewController.xib */; };
+		364E491F26B8E25E00A94BEE /* PageControlLandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364E491D26B8E25E00A94BEE /* PageControlLandscapeViewController.swift */; };
+		364E492026B8E25E00A94BEE /* PageControlLandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 364E491E26B8E25E00A94BEE /* PageControlLandscapeViewController.xib */; };
+		364F621326C2073F00DB2CF7 /* PageControl2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F621126C2073F00DB2CF7 /* PageControl2ViewController.swift */; };
+		364F621426C2073F00DB2CF7 /* PageControl2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 364F621226C2073F00DB2CF7 /* PageControl2ViewController.xib */; };
+		364F621626C20AD100DB2CF7 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F621526C20AD100DB2CF7 /* Slide.swift */; };
+		364F621826C20AFF00DB2CF7 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 364F621726C20AFF00DB2CF7 /* Slide.xib */; };
+		365F15BE269443E700952C9F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F15BC269443E700952C9F /* TableViewController.swift */; };
+		365F15BF269443E700952C9F /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365F15BD269443E700952C9F /* TableViewController.xib */; };
 		3672B213268C439C005B5597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672B212268C439C005B5597 /* AppDelegate.swift */; };
-		3672B215268C439C005B5597 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672B214268C439C005B5597 /* SceneDelegate.swift */; };
 		3672B217268C439C005B5597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672B216268C439C005B5597 /* ViewController.swift */; };
 		3672B21A268C439C005B5597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3672B218268C439C005B5597 /* Main.storyboard */; };
 		3672B21D268C439C005B5597 /* uigesture_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3672B21B268C439C005B5597 /* uigesture_test.xcdatamodeld */; };
 		3672B21F268C439D005B5597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3672B21E268C439D005B5597 /* Assets.xcassets */; };
 		3672B222268C439D005B5597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3672B220268C439D005B5597 /* LaunchScreen.storyboard */; };
+		3672B22B268C4704005B5597 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672B229268C4704005B5597 /* SwipeViewController.swift */; };
+		3672B22C268C4704005B5597 /* SwipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3672B22A268C4704005B5597 /* SwipeViewController.xib */; };
+		36CDC5E826C247E4002A7681 /* Swipe+PanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CDC5E626C247E4002A7681 /* Swipe+PanViewController.swift */; };
+		36CDC5E926C247E4002A7681 /* Swipe+PanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CDC5E726C247E4002A7681 /* Swipe+PanViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3635B909268F09F900D2FF70 /* PanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanViewController.swift; sourceTree = "<group>"; };
+		3635B90A268F09F900D2FF70 /* PanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PanViewController.xib; sourceTree = "<group>"; };
+		3645A36C269E787700732F95 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		3645A36D269E787800732F95 /* PageControlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageControlViewController.xib; sourceTree = "<group>"; };
+		364E491D26B8E25E00A94BEE /* PageControlLandscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlLandscapeViewController.swift; sourceTree = "<group>"; };
+		364E491E26B8E25E00A94BEE /* PageControlLandscapeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageControlLandscapeViewController.xib; sourceTree = "<group>"; };
+		364F621126C2073F00DB2CF7 /* PageControl2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl2ViewController.swift; sourceTree = "<group>"; };
+		364F621226C2073F00DB2CF7 /* PageControl2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageControl2ViewController.xib; sourceTree = "<group>"; };
+		364F621526C20AD100DB2CF7 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		364F621726C20AFF00DB2CF7 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		365F15BC269443E700952C9F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		365F15BD269443E700952C9F /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 		3672B20F268C439C005B5597 /* uigesture_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uigesture_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3672B212268C439C005B5597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3672B214268C439C005B5597 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3672B216268C439C005B5597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3672B219268C439C005B5597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3672B21C268C439C005B5597 /* uigesture_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = uigesture_test.xcdatamodel; sourceTree = "<group>"; };
 		3672B21E268C439D005B5597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3672B221268C439D005B5597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3672B223268C439D005B5597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3672B229268C4704005B5597 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		3672B22A268C4704005B5597 /* SwipeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwipeViewController.xib; sourceTree = "<group>"; };
+		36CDC5E626C247E4002A7681 /* Swipe+PanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swipe+PanViewController.swift"; sourceTree = "<group>"; };
+		36CDC5E726C247E4002A7681 /* Swipe+PanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "Swipe+PanViewController.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +69,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3635B908268F09D000D2FF70 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				3672B229268C4704005B5597 /* SwipeViewController.swift */,
+				3672B22A268C4704005B5597 /* SwipeViewController.xib */,
+				3635B909268F09F900D2FF70 /* PanViewController.swift */,
+				3635B90A268F09F900D2FF70 /* PanViewController.xib */,
+				365F15BC269443E700952C9F /* TableViewController.swift */,
+				365F15BD269443E700952C9F /* TableViewController.xib */,
+				3645A36C269E787700732F95 /* PageControlViewController.swift */,
+				3645A36D269E787800732F95 /* PageControlViewController.xib */,
+				364E491D26B8E25E00A94BEE /* PageControlLandscapeViewController.swift */,
+				364E491E26B8E25E00A94BEE /* PageControlLandscapeViewController.xib */,
+				364F621126C2073F00DB2CF7 /* PageControl2ViewController.swift */,
+				364F621226C2073F00DB2CF7 /* PageControl2ViewController.xib */,
+				364F621526C20AD100DB2CF7 /* Slide.swift */,
+				364F621726C20AFF00DB2CF7 /* Slide.xib */,
+				36CDC5E626C247E4002A7681 /* Swipe+PanViewController.swift */,
+				36CDC5E726C247E4002A7681 /* Swipe+PanViewController.xib */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		3672B206268C439C005B5597 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +111,8 @@
 		3672B211268C439C005B5597 /* uigesture_test */ = {
 			isa = PBXGroup;
 			children = (
+				3635B908268F09D000D2FF70 /* Test */,
 				3672B212268C439C005B5597 /* AppDelegate.swift */,
-				3672B214268C439C005B5597 /* SceneDelegate.swift */,
 				3672B216268C439C005B5597 /* ViewController.swift */,
 				3672B218268C439C005B5597 /* Main.storyboard */,
 				3672B21E268C439D005B5597 /* Assets.xcassets */,
@@ -129,7 +182,15 @@
 			files = (
 				3672B222268C439D005B5597 /* LaunchScreen.storyboard in Resources */,
 				3672B21F268C439D005B5597 /* Assets.xcassets in Resources */,
+				364F621426C2073F00DB2CF7 /* PageControl2ViewController.xib in Resources */,
+				3635B90C268F09F900D2FF70 /* PanViewController.xib in Resources */,
+				365F15BF269443E700952C9F /* TableViewController.xib in Resources */,
+				364F621826C20AFF00DB2CF7 /* Slide.xib in Resources */,
+				36CDC5E926C247E4002A7681 /* Swipe+PanViewController.xib in Resources */,
 				3672B21A268C439C005B5597 /* Main.storyboard in Resources */,
+				3672B22C268C4704005B5597 /* SwipeViewController.xib in Resources */,
+				3645A36F269E787800732F95 /* PageControlViewController.xib in Resources */,
+				364E492026B8E25E00A94BEE /* PageControlLandscapeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +202,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3672B217268C439C005B5597 /* ViewController.swift in Sources */,
+				365F15BE269443E700952C9F /* TableViewController.swift in Sources */,
 				3672B213268C439C005B5597 /* AppDelegate.swift in Sources */,
-				3672B215268C439C005B5597 /* SceneDelegate.swift in Sources */,
+				364E491F26B8E25E00A94BEE /* PageControlLandscapeViewController.swift in Sources */,
+				36CDC5E826C247E4002A7681 /* Swipe+PanViewController.swift in Sources */,
+				3645A36E269E787800732F95 /* PageControlViewController.swift in Sources */,
 				3672B21D268C439C005B5597 /* uigesture_test.xcdatamodeld in Sources */,
+				3635B90B268F09F900D2FF70 /* PanViewController.swift in Sources */,
+				364F621326C2073F00DB2CF7 /* PageControl2ViewController.swift in Sources */,
+				3672B22B268C4704005B5597 /* SwipeViewController.swift in Sources */,
+				364F621626C20AD100DB2CF7 /* Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QAT46LHJF5;
 				INFOPLIST_FILE = uigesture_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QAT46LHJF5;
 				INFOPLIST_FILE = uigesture_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

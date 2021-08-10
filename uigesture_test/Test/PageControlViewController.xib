@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PageControlViewController" customModule="uigesture_test" customModuleProvider="target">
+            <connections>
+                <outlet property="bgView" destination="aEt-O1-qFL" id="4Zl-4D-Ixa"/>
+                <outlet property="pageControl" destination="k4l-KK-3Dj" id="m0N-8y-SlY"/>
+                <outlet property="scrollView" destination="TeS-dv-SFJ" id="bUR-sx-88L"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view autoresizesSubviews="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEt-O1-qFL">
+                    <rect key="frame" x="0.0" y="44" width="414" height="300"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeS-dv-SFJ">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </scrollView>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="k4l-KK-3Dj">
+                            <rect key="frame" x="146" y="248" width="122" height="28"/>
+                            <color key="pageIndicatorTintColor" red="0.82894482904501987" green="0.72086418191089174" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </pageControl>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="k4l-KK-3Dj" secondAttribute="bottom" constant="24" id="ezg-l1-uDV"/>
+                        <constraint firstAttribute="height" constant="300" id="i4k-rq-H3a"/>
+                        <constraint firstItem="k4l-KK-3Dj" firstAttribute="centerX" secondItem="aEt-O1-qFL" secondAttribute="centerX" id="izU-Ar-vE4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aEt-O1-qFL" secondAttribute="trailing" id="eeC-7K-jYr"/>
+                <constraint firstItem="aEt-O1-qFL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="tPB-qs-kiD"/>
+                <constraint firstItem="aEt-O1-qFL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="wft-8Q-AtW"/>
+            </constraints>
+            <point key="canvasLocation" x="105.79710144927537" y="63.616071428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
