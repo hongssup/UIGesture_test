@@ -10,7 +10,7 @@ import UIKit
 class TableViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    let cases = ["Swipe", "Pan", "PageControl", "PGL", "pc2", "pan+"]
+    let cases = ["Swipe", "Pan", "PageControl", "PageControl Landscape", "pc2", "pan+", "AutoSlide"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,8 +56,13 @@ extension TableViewController: UITableViewDelegate, UITableViewDataSource {
             let vc = PageControl2ViewController(nibName: "PageControl2ViewController", bundle: nil)
             self.navigationController?.pushViewController(vc, animated: true)
             break
-        default:
+        case 5:
             let vc = Swipe_PanViewController(nibName: "Swipe+PanViewController", bundle: nil)
+            self.navigationController?.pushViewController(vc, animated: true)
+            break
+        default:
+            //let vc = self.storyboard?.instantiateViewController(withIdentifier: "AutoSlide") as! AutoSlideBannerViewController
+            let vc = AutoSlideBannerViewController(nibName: "AutoSlideBannerViewController", bundle: nil)
             self.navigationController?.pushViewController(vc, animated: true)
             break
         }

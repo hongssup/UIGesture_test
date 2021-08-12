@@ -17,6 +17,10 @@
 		364F621426C2073F00DB2CF7 /* PageControl2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 364F621226C2073F00DB2CF7 /* PageControl2ViewController.xib */; };
 		364F621626C20AD100DB2CF7 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F621526C20AD100DB2CF7 /* Slide.swift */; };
 		364F621826C20AFF00DB2CF7 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 364F621726C20AFF00DB2CF7 /* Slide.xib */; };
+		365EAA8326C3A47000053DEA /* AutoSlideBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365EAA8126C3A47000053DEA /* AutoSlideBannerViewController.swift */; };
+		365EAA8426C3A47000053DEA /* AutoSlideBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365EAA8226C3A47000053DEA /* AutoSlideBannerViewController.xib */; };
+		365EAA8926C3BBE600053DEA /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365EAA8726C3BBE600053DEA /* BannerCell.swift */; };
+		365EAA8A26C3BBE600053DEA /* BannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365EAA8826C3BBE600053DEA /* BannerCell.xib */; };
 		365F15BE269443E700952C9F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F15BC269443E700952C9F /* TableViewController.swift */; };
 		365F15BF269443E700952C9F /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365F15BD269443E700952C9F /* TableViewController.xib */; };
 		3672B213268C439C005B5597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672B212268C439C005B5597 /* AppDelegate.swift */; };
@@ -42,6 +46,10 @@
 		364F621226C2073F00DB2CF7 /* PageControl2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageControl2ViewController.xib; sourceTree = "<group>"; };
 		364F621526C20AD100DB2CF7 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		364F621726C20AFF00DB2CF7 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		365EAA8126C3A47000053DEA /* AutoSlideBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSlideBannerViewController.swift; sourceTree = "<group>"; };
+		365EAA8226C3A47000053DEA /* AutoSlideBannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoSlideBannerViewController.xib; sourceTree = "<group>"; };
+		365EAA8726C3BBE600053DEA /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		365EAA8826C3BBE600053DEA /* BannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCell.xib; sourceTree = "<group>"; };
 		365F15BC269443E700952C9F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		365F15BD269443E700952C9F /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 		3672B20F268C439C005B5597 /* uigesture_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uigesture_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +96,10 @@
 				364F621726C20AFF00DB2CF7 /* Slide.xib */,
 				36CDC5E626C247E4002A7681 /* Swipe+PanViewController.swift */,
 				36CDC5E726C247E4002A7681 /* Swipe+PanViewController.xib */,
+				365EAA8126C3A47000053DEA /* AutoSlideBannerViewController.swift */,
+				365EAA8226C3A47000053DEA /* AutoSlideBannerViewController.xib */,
+				365EAA8726C3BBE600053DEA /* BannerCell.swift */,
+				365EAA8826C3BBE600053DEA /* BannerCell.xib */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -191,6 +203,8 @@
 				3672B22C268C4704005B5597 /* SwipeViewController.xib in Resources */,
 				3645A36F269E787800732F95 /* PageControlViewController.xib in Resources */,
 				364E492026B8E25E00A94BEE /* PageControlLandscapeViewController.xib in Resources */,
+				365EAA8426C3A47000053DEA /* AutoSlideBannerViewController.xib in Resources */,
+				365EAA8A26C3BBE600053DEA /* BannerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +220,8 @@
 				3672B213268C439C005B5597 /* AppDelegate.swift in Sources */,
 				364E491F26B8E25E00A94BEE /* PageControlLandscapeViewController.swift in Sources */,
 				36CDC5E826C247E4002A7681 /* Swipe+PanViewController.swift in Sources */,
+				365EAA8326C3A47000053DEA /* AutoSlideBannerViewController.swift in Sources */,
+				365EAA8926C3BBE600053DEA /* BannerCell.swift in Sources */,
 				3645A36E269E787800732F95 /* PageControlViewController.swift in Sources */,
 				3672B21D268C439C005B5597 /* uigesture_test.xcdatamodeld in Sources */,
 				3635B90B268F09F900D2FF70 /* PanViewController.swift in Sources */,

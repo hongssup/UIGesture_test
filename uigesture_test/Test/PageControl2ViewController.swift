@@ -40,12 +40,12 @@ class PageControl2ViewController: UIViewController, UIScrollViewDelegate {
     
     func setupSlideScrollView(slides : [Slide]) {
         //scrollView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: 300)
-        scrollView.contentSize = CGSize(width: 375 * 4, height: 300)
+        scrollView.contentSize = CGSize(width: view.frame.width * 4, height: 300)
         //scrollView.contentSize = CGSize(width: scrollView.frame.width, height: scrollView.frame.height * 4)
         scrollView.isPagingEnabled = true
         
         for i in 0 ..< slides.count {
-            slides[i].frame = CGRect(x: 375 * i, y: 0, width: 375, height: 300)
+            slides[i].frame = CGRect(x: view.frame.width * CGFloat(i), y: 0, width: view.frame.width, height: 300)
             scrollView.addSubview(slides[i])
         }
     }
