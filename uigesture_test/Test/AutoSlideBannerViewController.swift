@@ -17,7 +17,7 @@ class AutoSlideBannerViewController: UIViewController {
                      UIImage(named: "yono2"),
                      UIImage(named: "yono3"),
                      UIImage(named: "yono") ]
-    
+    var timer = Timer()
     override func viewDidLoad() {
         super.viewDidLoad()
         pageControl.numberOfPages = imgArray.count
@@ -30,9 +30,13 @@ class AutoSlideBannerViewController: UIViewController {
         }
         
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        timer.invalidate()
+    }
 
     func bannerTimer() {
-        let _: Timer = Timer.scheduledTimer(withTimeInterval: 2, repeats: true) { (Timer) in
+        timer = Timer.scheduledTimer(withTimeInterval: 2, repeats: true) { (Timer) in
             self.autoSlide()
         }
     }

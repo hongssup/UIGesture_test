@@ -50,7 +50,7 @@ class PanViewController: UIViewController {
     @objc func handlePan(gesture: UIPanGestureRecognizer) {
         let translation = gesture.translation(in: panView)
         let width = CGFloat(width!)
-        print(width)
+        //print(width)
         switch gesture.state {
         case .began:
             //print("began")
@@ -61,10 +61,12 @@ class PanViewController: UIViewController {
             break
         case .ended:
             //UIView.animate(withDuration: 0.4, animations: { self.view1.transform = .identity })
-            if translation.x < 0 {
+            if translation.x < -30 {
                 UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseOut, animations: { self.view1.transform = CGAffineTransform(translationX: -width, y: 0) })
-            } else {
+            } else if translation.x >= 30 {
                 UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseOut, animations: { self.view1.transform = CGAffineTransform(translationX: width, y: 0) })
+            } else {
+                UIView.animate(withDuration: 0.3, animations: { self.view1.transform = .identity })
             }
             
             break
